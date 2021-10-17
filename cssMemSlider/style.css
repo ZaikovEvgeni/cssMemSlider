@@ -1,4 +1,8 @@
 
+html {
+  font-size: 15px;
+}
+
 
 /* .container {
   max-width: 1270px;
@@ -79,6 +83,8 @@ input {
   justify-content: center;
   width: 33px;
   height: 33px;
+  /* width: 20%;
+  height: auto; */
   /* background: grey; */
   /* border: 1px solid black; */
   cursor: pointer;
@@ -90,6 +96,8 @@ input {
   display: inline-block;
   width: 18px;
   height: 18px;
+  /* width: 50%;
+  height: 50%; */
   background: green;
 }
 
@@ -143,6 +151,7 @@ input {
 .texts {
   width: 50%;
   overflow: hidden;
+  
 }
 
 .texts__items {
@@ -156,6 +165,7 @@ input {
   display: block;
   width: 20%;
   text-align: end;
+  font-size: 2em;
 }
 
 
@@ -206,6 +216,21 @@ input {
 
 
 
+@media ( max-width: 1014px ) {
+  .texts__items span {
+    font-size: 1.5em;
+    padding-top: 2px;
+  }
+}
+
+
+@media ( max-width: 764px ) {
+  .texts__items span {
+    font-size: 1.2em;
+    padding-top: 6px;
+  }
+}
+
 
 
 
@@ -217,9 +242,9 @@ input {
 
 @media ( max-width: 340px ) {
   .slider-inner {
-    flex-direction: column;
+    
     margin-top: 20px;
-    align-items: center;
+    
   }
 
   .slider-control {
@@ -227,6 +252,9 @@ input {
   }
 
   .texts__items span {
-    text-align: start;
+    font-size: 1.1em;
+    padding-top: 7px;
   }
+
+ 
 } 
