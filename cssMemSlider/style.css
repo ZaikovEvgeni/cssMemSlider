@@ -240,6 +240,17 @@ input {
     }
 }
 
+@media ( max-width: 400px ) {
+  .slider-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texts__items span {
+    text-align: center;
+  }
+}
+
 @media ( max-width: 340px ) {
   .slider-inner {
     
