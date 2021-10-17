@@ -246,8 +246,12 @@ input {
     align-items: center;
   }
 
+  .texts {
+    width: 100%;
+  }
+
   .texts__items span {
-    text-align: center;
+    text-align: start;
   }
 }
 
